@@ -38,7 +38,6 @@ public class CameraTest {
     camera.powerOff();
   }
 
-
   @Test
   public void pressingTheShutterWhenThePowerIsOffDoesNothing() {
 
@@ -81,7 +80,6 @@ public class CameraTest {
     camera.pressShutter();
     camera.powerOff();
   }
-
 
   @Test
   public void onceWritingDataHasCompletedCameraPowersDownIfPressed() {
