@@ -25,7 +25,6 @@ public class CameraTest {
     context.checking(new Expectations() {{
       exactly(1).of(cameraSensor).powerUp();
     }});
-
     camera.powerOn();
   }
 
